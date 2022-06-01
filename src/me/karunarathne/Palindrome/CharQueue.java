@@ -130,7 +130,7 @@ public class CharQueue implements Queue {
      */
     @Override
     public boolean removeAll(Collection c) {
-        return false;
+        return removeAll(c);
     }
 
     /**
