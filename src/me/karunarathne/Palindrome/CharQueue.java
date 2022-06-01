@@ -38,7 +38,7 @@ public class CharQueue implements Queue {
      */
     @Override
     public int size() {
-        return 0;
+        return charArray.size();
     }
 
     /**
