@@ -8,7 +8,7 @@ public class QueueChecker {
     public static boolean checkIfPalindrome(String word) {
         charQueue = new CharQueue(word.substring(0, word.length()/2));
 
-        printQueue();
+        printQueue();   // TODO remove
         return false;
     }
 
