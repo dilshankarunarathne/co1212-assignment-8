@@ -5,6 +5,10 @@ public class Main {
 
     }
 
+    private static void queueTests() {
+        
+    }
+
     private static void stackTests() {
         StackChecker.checkIfPalindrome("srilanka");
         StackChecker.checkIfPalindrome("madam");
