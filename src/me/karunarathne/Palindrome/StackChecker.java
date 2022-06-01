@@ -14,8 +14,11 @@ public class StackChecker {
         length = word.length();
         fillStack (word);
 
-//        printStack();
-
+        /*
+            fill a half
+            start popping
+            with the rest of the elements
+         */
         if (length % 2 == 1) {  // odd
 
         } else {                // even
