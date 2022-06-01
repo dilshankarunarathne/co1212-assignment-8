@@ -14,13 +14,6 @@ public class StackChecker {
         clearStack();
         length = word.length();
 
-        /*
-            fill a half
-            start popping
-            with the rest of the elements
-         */
-
-
         fillStack(word, length/2);
 
         return printResult(word, checkStack(word));
