@@ -29,6 +29,10 @@ public class CharQueue implements Queue {
 
     }
 
+    /**
+     * not implemented
+     * @return
+     */
     @Override
     public int size() {
         return 0;
