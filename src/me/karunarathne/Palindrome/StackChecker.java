@@ -19,14 +19,14 @@ public class StackChecker {
             with the rest of the elements
          */
 
-//        if (length % 2 == 1) {  // odd
+//        if (length % 2 == 1) {  // odd    TODO check again
 //            fillStack(word, length/2);
 //        } else {                // even
 //            fillStack(word, length/2);
 //        }
 
         fillStack(word, length/2);
-        printStack();
+        printStack();   //TODO remove
         clearStack();
 
         return false;
@@ -34,7 +34,7 @@ public class StackChecker {
 
     private static void fillStack(String word, int limit) {
         fillStack(word.substring(0, limit));
-//        System.out.println(limit);
+//        System.out.println(limit);        TODO remove
 //        System.out.println(word.substring(0, limit+1));
     }
 
