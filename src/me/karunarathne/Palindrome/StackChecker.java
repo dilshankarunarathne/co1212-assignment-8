@@ -19,6 +19,7 @@ public class StackChecker {
             start popping
             with the rest of the elements
          */
+        
         if (length % 2 == 1) {  // odd
 
         } else {                // even
