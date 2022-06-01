@@ -11,10 +11,14 @@ public class StackChecker {
 
     public static boolean isPalindrome (String word) {
         fillStack (word);
-        
+
         printStack();
 
         return false;
+    }
+
+    private static void printStack() {
+        charStack.stream().forEach(i -> System.out.println((char)i));
     }
 
     private static void fillStack(String word) {
