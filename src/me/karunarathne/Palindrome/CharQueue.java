@@ -11,7 +11,9 @@ public class CharQueue implements Queue {
 
     public CharQueue(String word) {
         this();
-        charArray.addAll(Arrays.asList(word));
+        word.chars().forEach(
+                
+        );
     }
 
     /**
