@@ -120,7 +120,7 @@ public class CharQueue implements Queue {
      */
     @Override
     public boolean retainAll(Collection c) {
-        return false;
+        return charArray.retainAll(c);
     }
 
     /**
