@@ -6,7 +6,7 @@ public class QueueChecker {
     private static Queue charQueue;
 
     public static boolean checkIfPalindrome(String word) {
-        charQueue = new CharQueue(word.substring(word.length()/2));
+        charQueue = new CharQueue(word.substring(0, word.length()/2));
 
         printQueue();
         return false;
