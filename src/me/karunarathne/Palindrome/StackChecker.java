@@ -3,5 +3,11 @@ package me.karunarathne.Palindrome;
 import java.util.Stack;
 
 public class StackChecker {
-    Stack<Character> charStack ;
+    private static Stack<Character> charStack ;
+
+    static {
+        charStack = new Stack<>();
+    }
+
+    public 
 }
