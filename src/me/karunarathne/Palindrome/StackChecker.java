@@ -16,6 +16,8 @@ public class StackChecker {
 
 //        printStack();
 
+        clearStack();
+
         return false;
     }
 
