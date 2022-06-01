@@ -33,6 +33,10 @@ public class Queue implements java.util.Queue {
         return null;
     }
 
+    /**
+     * not needed
+     * @return
+     */
     @Override
     public Object[] toArray() {
         return new Object[0];
