@@ -14,10 +14,9 @@ public class QueueChecker {
 //        System.out.println(charQueue.deQueue());
 //        System.out.println(charQueue.deQueue());
 
-
-        printResult(word, checkQueue(word));
+        
         printQueue();   // TODO remove
-        return false;
+        return printResult(word, checkQueue(word));
     }
 
     private static boolean checkQueue(String word) {
