@@ -21,7 +21,7 @@ public class CharQueue implements Queue {
      * @return  character
      */
     public char deQueue () {
-        return charArray.remove(charArray.size());
+        return charArray.remove(0);
     }
 
     /**
