@@ -42,6 +42,13 @@ public class Queue implements java.util.Queue {
         return new Object[0];
     }
 
+    /**
+     * not needed
+     * @param a the array into which the elements of this collection are to be
+     *        stored, if it is big enough; otherwise, a new array of the same
+     *        runtime type is allocated for this purpose.
+     * @return
+     */
     @Override
     public Object[] toArray(Object[] a) {
         return new Object[0];
