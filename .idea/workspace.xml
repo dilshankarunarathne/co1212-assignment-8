@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46702eb8-f088-4f50-8d78-920a8212a223" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/me/karunarathne/Palindrome/CharQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/karunarathne/Palindrome/CharQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/karunarathne/Palindrome/QueueChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/karunarathne/Palindrome/QueueChecker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +70,7 @@
       <updated>1654050651377</updated>
       <workItem from="1654050654764" duration="9000" />
       <workItem from="1654050728067" duration="1919000" />
-      <workItem from="1654062635486" duration="3231000" />
+      <workItem from="1654062635486" duration="3529000" />
     </task>
     <servers />
   </component>

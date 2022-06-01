@@ -12,6 +12,15 @@ public class QueueChecker {
         return false;
     }
 
+    private static boolean printResult(String word, boolean palindrome) {
+        System.out.print(word + " is");
+        if (!palindrome) {
+            System.out.print(" not");
+        }
+        System.out.println(" a palindrome.");
+        return palindrome;
+    }
+
     private static void printQueue() {
         charQueue.forEach(
                 i -> System.out.println((char) i)
