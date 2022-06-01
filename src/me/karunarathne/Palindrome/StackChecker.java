@@ -20,11 +20,12 @@ public class StackChecker {
          */
 
         if (length % 2 == 1) {  // odd
-            fillStack(word, );
+            fillStack(word, length/2);
         } else {                // even
 
         }
 
+        printStack();
         clearStack();
 
         return false;
