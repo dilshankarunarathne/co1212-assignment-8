@@ -8,4 +8,6 @@ public class QueueChecker {
     static {
         charQueue = new CharQueue();
     }
+
+    
 }
