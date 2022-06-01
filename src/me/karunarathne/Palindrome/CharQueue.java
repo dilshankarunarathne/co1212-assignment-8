@@ -24,6 +24,9 @@ public class CharQueue implements Queue {
         return false;
     }
 
+    /**
+     * Removes all elements in the Queue
+     */
     @Override
     public void clear() {
 
