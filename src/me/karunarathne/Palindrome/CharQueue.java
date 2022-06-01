@@ -42,8 +42,8 @@ public class CharQueue implements Queue {
     }
 
     /**
-     * not implemented
-     * @return
+     * Check whether the Queue is empty
+     * @return is the Queue empty
      */
     @Override
     public boolean isEmpty() {
