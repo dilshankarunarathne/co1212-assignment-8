@@ -39,6 +39,11 @@ public class CharQueue implements Queue {
         return false;
     }
 
+    /**
+     * not implemented
+     * @param c collection containing elements to be added to this collection
+     * @return
+     */
     @Override
     public boolean addAll(Collection c) {
         return false;
