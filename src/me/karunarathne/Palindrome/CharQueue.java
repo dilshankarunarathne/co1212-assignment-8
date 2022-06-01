@@ -114,7 +114,7 @@ public class CharQueue implements Queue {
     }
 
     /**
-     * not implemented
+     * not needed
      * @param c collection containing elements to be retained in this collection
      * @return
      */
