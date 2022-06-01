@@ -35,10 +35,8 @@ public class StackChecker {
 
     private static boolean checkStack(String slice) {
         for (int i=0; i<slice.length(); i++) {
-            System.out.println("charAt\tStack");    // TODO remove
             if (slice.charAt(i) != charStack.pop()) {
                 return false;
-                System.out.println("charAt\tStack");    // TODO remove
             }
         }
         return true;
