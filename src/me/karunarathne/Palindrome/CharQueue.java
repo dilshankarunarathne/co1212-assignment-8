@@ -7,6 +7,26 @@ import java.util.List;
 public class CharQueue implements java.util.Queue {
     private List<Character> charArray;
 
+    /**
+     * Add an element to the queue
+     * @param o element whose presence in this collection is to be ensured
+     * @return
+     */
+    @Override
+    public boolean add(Object o) {
+        return false;
+    }
+
+    @Override
+    public boolean addAll(Collection c) {
+        return false;
+    }
+
+    @Override
+    public void clear() {
+
+    }
+
     @Override
     public int size() {
         return 0;
