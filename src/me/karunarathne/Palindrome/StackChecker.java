@@ -18,7 +18,10 @@ public class StackChecker {
     }
 
     private static void printStack() {
-        charStack.stream().forEach(i -> System.out.println((char)i));
+        charStack.stream()
+                .forEach(
+                        i -> System.out.println((char)i)
+                );
     }
 
     private static void fillStack(String word) {
