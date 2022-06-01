@@ -20,11 +20,6 @@ public class StackChecker {
             with the rest of the elements
          */
 
-//        if (length % 2 == 1) {  // odd    TODO check again
-//            fillStack(word, length/2);
-//        } else {                // even
-//            fillStack(word, length/2);
-//        }
 
         fillStack(word, length/2);
 
