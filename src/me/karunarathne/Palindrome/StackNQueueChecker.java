@@ -16,16 +16,6 @@ public class StackNQueueChecker {
         word.substring(0, )
     }
 
-    private static void clearAll() {
-        if(charStack.equals(null)) {
-            charStack = new Stack<>();
-        } else {
-            charStack.clear();
-        }
-        
-
-    }
-
     private static void fillStack(String word) {
         word.chars()
                 .forEach(
