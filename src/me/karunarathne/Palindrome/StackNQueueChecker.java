@@ -5,16 +5,22 @@ import java.util.Stack;
 public class StackNQueueChecker {
     private static Stack<Character> charStack;
     private static CharQueue charQueue;
+    private static int length;
 
     static {
 
     }
 
     public static boolean checkIfPalindrome(String word) {
+        length = word.length();
         clearAll();
 
-        fillQueue(word);
-        charQueue = new CharQueue(word.substring(0, word.length()/2));
+        fillStack(word.substring(0, word.length()/2));
+
+
+        fillQueue(word.substring(word.length()/2, word.length()));
+
+        charQueue = new CharQueue();
 
         return printResult(word, compare());
     }
