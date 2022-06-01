@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46702eb8-f088-4f50-8d78-920a8212a223" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/esn/eusl/CO1212/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/esn/eusl/CO1212/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/karunarathne/Palindrome/StackChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/karunarathne/Palindrome/StackChecker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +45,7 @@
       <option name="presentableId" value="Default" />
       <updated>1654050651377</updated>
       <workItem from="1654050654764" duration="9000" />
-      <workItem from="1654050728067" duration="297000" />
+      <workItem from="1654050728067" duration="608000" />
     </task>
     <servers />
   </component>
