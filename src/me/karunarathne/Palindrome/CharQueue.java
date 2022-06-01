@@ -9,8 +9,9 @@ public class CharQueue implements Queue {
         charArray = new ArrayList<>();
     }
 
-    public CharQueue() {
-        charArray = new ArrayList<>();
+    public CharQueue(String word) {
+        this();
+        
     }
 
     /**
