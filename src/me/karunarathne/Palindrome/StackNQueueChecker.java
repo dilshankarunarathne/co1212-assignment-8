@@ -18,7 +18,11 @@ public class StackNQueueChecker {
 
         fillStack(word.substring(0, length / 2));
 
-        charQueue = new CharQueue(word.substring(length / 2, length));
+        if (length % 2 == 1) {
+
+        } else {
+            charQueue = new CharQueue(word.substring(length / 2, length));
+        }
 
         return printResult(word, compare());
     }
