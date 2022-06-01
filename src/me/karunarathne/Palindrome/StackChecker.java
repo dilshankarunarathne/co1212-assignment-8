@@ -51,7 +51,7 @@ public class StackChecker {
         if (!palindrome) {
             System.out.print(" not");
         }
-        System.out.println(" a palindrome.\n");
+        System.out.println(" a palindrome.");
         return palindrome;
     }
 
