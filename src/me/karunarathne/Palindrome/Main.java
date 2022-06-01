@@ -6,10 +6,10 @@ public class Main {
     }
 
     private static void queueTests() {
-        StackChecker.checkIfPalindrome("srilanka");
-        StackChecker.checkIfPalindrome("madam");
-        StackChecker.checkIfPalindrome("hannah");
-        StackChecker.checkIfPalindrome("rocketman");
+        QueueChecker.checkIfPalindrome("srilanka");
+        QueueChecker.checkIfPalindrome("madam");
+        QueueChecker.checkIfPalindrome("hannah");
+        QueueChecker.checkIfPalindrome("rocketman");
     }
 
     private static void stackTests() {
