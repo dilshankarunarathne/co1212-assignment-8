@@ -57,7 +57,7 @@ public class CharQueue implements java.util.Queue {
     }
 
     /**
-     * not needed
+     * not implemented
      * @return
      */
     @Override
@@ -66,7 +66,7 @@ public class CharQueue implements java.util.Queue {
     }
 
     /**
-     * not needed
+     * not implemented
      * @param a the array into which the elements of this collection are to be
      *        stored, if it is big enough; otherwise, a new array of the same
      *        runtime type is allocated for this purpose.
