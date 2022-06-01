@@ -30,7 +30,7 @@ public class StackChecker {
 
         return false;
     }
-    
+
     private static void fillStack(String word) {
         word.chars()
                 .forEach(
@@ -47,5 +47,4 @@ public class StackChecker {
                 i -> System.out.println((char)i)
         );
     }
-
 }
