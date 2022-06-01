@@ -21,7 +21,7 @@ public class CharQueue implements Queue {
      */
     @Override
     public boolean add(Object o) {
-        charArray.add((Character) o);
+        return charArray.add((Character) o);
     }
 
     /**
