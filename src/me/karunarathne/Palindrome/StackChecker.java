@@ -34,7 +34,7 @@ public class StackChecker {
     }
 
     private static boolean checkStack(String substring) {
-        for (int i=0, i<substring.length(); i++) {
+        for (int i=0; i<substring.length(); i++) {
             
         }
     }
