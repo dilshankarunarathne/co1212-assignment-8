@@ -8,7 +8,7 @@ public class Main {
 
     private static void queueTests() {
         System.out.println("------------------------------");
-        System.out.println("         Qs-Queue");
+        System.out.println("         Q2-Queue");
         QueueChecker.checkIfPalindrome("srilanka");
         QueueChecker.checkIfPalindrome("madam");
         QueueChecker.checkIfPalindrome("hannah");
