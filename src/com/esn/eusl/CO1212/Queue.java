@@ -1,3 +1,5 @@
+package com.esn.eusl.CO1212;
+
 public class Queue {
     int size = 5;
     int myQueue[] = new int[size];
