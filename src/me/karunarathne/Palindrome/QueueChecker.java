@@ -7,9 +7,9 @@ public class QueueChecker {
     private static int length ;
 
     public static boolean checkIfPalindrome(String word) {
-        charQueue = new CharQueue(word.substring(0, word.length()/2));
         length = word.length();
-        
+        charQueue = new CharQueue(word.substring(0, word.length()/2));
+
         printQueue();   // TODO remove
         return false;
     }
