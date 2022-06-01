@@ -64,7 +64,7 @@ public class CharQueue implements Queue {
     }
 
     /**
-     *
+     * not needed
      * @return
      */
     @Override
