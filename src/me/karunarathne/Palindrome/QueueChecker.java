@@ -14,20 +14,20 @@ public class QueueChecker {
 //        System.out.println(charQueue.deQueue());
 //        System.out.println(charQueue.deQueue());
 
-        
-        printQueue();   // TODO remove
+
+//        printQueue();   // TODO remove
         return printResult(word, checkQueue(word));
     }
 
     private static boolean checkQueue(String word) {
-        String slice;
+        String slice = word;
         if (length % 2 == 1) {  // odd
             slice = word.substring((length/2)+1, length);
         } else {                // even
             slice = word.substring(length/2, length);
         }
 
-        for (int i=0; i<slice.length(); i++) {
+        for (int i=slice.length(); i<=0; i++) {
             if (slice.charAt(i) != charQueue.deQueue()) {
                 return false;
             }
