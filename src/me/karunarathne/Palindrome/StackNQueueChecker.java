@@ -13,7 +13,11 @@ public class StackNQueueChecker {
     public static boolean checkIfPalindrome(String word) {
         clearAll();
 
-        word.substring(0, )
+        fillQueue(word);
+        charQueue = new CharQueue(word.substring(0, word.length()/2));
+    }
+
+    private static void fillQueue(String word) {
     }
 
     private static void fillStack(String word) {
