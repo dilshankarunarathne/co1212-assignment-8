@@ -12,7 +12,7 @@ public class CharQueue implements Queue {
     public CharQueue(String word) {
         this();
         word.chars().forEach(
-                
+                i -> 
         );
     }
 
