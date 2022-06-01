@@ -18,6 +18,7 @@ public class StackNQueueChecker {
     }
 
     private static void fillQueue(String word) {
+        
     }
 
     private static void fillStack(String word) {
