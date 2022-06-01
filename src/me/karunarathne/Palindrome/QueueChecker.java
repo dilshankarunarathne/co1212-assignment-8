@@ -10,6 +10,10 @@ public class QueueChecker {
         length = word.length();
         charQueue = new CharQueue(word.substring(0, length/2));
 
+        for (int i=0; i<length/2; i++) {
+            System.out.println(charQueue.deQueue());
+        }
+
         printQueue();   // TODO remove
         return false;
     }
