@@ -11,7 +11,7 @@ public class CharQueue implements Queue {
 
     public CharQueue(String word) {
         this();
-        
+        charArray.addAll(word);
     }
 
     /**
