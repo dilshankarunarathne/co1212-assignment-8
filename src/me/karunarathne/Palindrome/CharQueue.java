@@ -102,6 +102,10 @@ public class CharQueue implements java.util.Queue {
         return false;
     }
 
+    /**
+     * not implemented
+     * @return
+     */
     @Override
     public Object remove() {
         return null;
