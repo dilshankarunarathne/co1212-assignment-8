@@ -27,6 +27,7 @@ public class StackChecker {
 
         printStack();
         clearStack();
+        printStack();
 
         return false;
     }
