@@ -117,6 +117,10 @@ public class CharQueue implements java.util.Queue {
         return null;
     }
 
+    /**
+     * not implemented
+     * @return
+     */
     @Override
     public Object peek() {
         return null;
