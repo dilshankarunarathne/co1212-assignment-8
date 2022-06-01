@@ -1,5 +1,4 @@
 # CO1212 Assignment 8
- Java program to check palindromes
 
 Implement a Java program to check palindrome using
 1) Stack
