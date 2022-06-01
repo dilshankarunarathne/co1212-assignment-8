@@ -38,7 +38,16 @@ public class CharQueue implements java.util.Queue {
     }
 
     /**
-     * not needed
+     *
+     * @return
+     */
+    @Override
+    public Iterator iterator() {
+        return null;
+    }
+
+    /**
+     * not implemented
      * @param o element whose presence in this collection is to be tested
      * @return
      */
