@@ -48,15 +48,6 @@ public class CharQueue implements java.util.Queue {
     }
 
     /**
-     * 
-     * @return
-     */
-    @Override
-    public Iterator iterator() {
-        return null;
-    }
-
-    /**
      * not implemented
      * @return
      */
