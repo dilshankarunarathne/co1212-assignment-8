@@ -3,9 +3,9 @@ package me.karunarathne.Palindrome;
 import java.util.Queue;
 
 public class QueueChecker {
-    Queue <Character> charQueue;
+    private Queue <Character> charQueue;
 
     static {
-        
+        charQ
     }
 }
