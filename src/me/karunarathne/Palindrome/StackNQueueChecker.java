@@ -15,10 +15,10 @@ public class StackNQueueChecker {
         length = word.length();
         clearAll();
 
-        fillStack(word.substring(0, word.length()/2));
+        fillStack(word.substring(0, length/2));
 
 
-        fillQueue(word.substring(word.length()/2, word.length()));
+        fillQueue(word.substring(length/2, length));
 
         charQueue = new CharQueue();
 
