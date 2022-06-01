@@ -8,6 +8,7 @@ public class Main {
     }
 
     private static void stackTests() {
+        System.out.println("------------------------------");
         System.out.println("         Q1 - Stack");
         StackChecker.checkIfPalindrome("srilanka");
         StackChecker.checkIfPalindrome("madam");
@@ -17,6 +18,7 @@ public class Main {
     }
 
     private static void queueTests() {
+        System.out.println("------------------------------");
         System.out.println("         Q2 - Queue");
         QueueChecker.checkIfPalindrome("srilanka");
         QueueChecker.checkIfPalindrome("madam");
@@ -26,6 +28,7 @@ public class Main {
     }
 
     private static void stackNQueueTests() {
+        System.out.println("------------------------------");
         System.out.println("      Q3 - Stack & Queue");
         StackNQueueChecker.checkIfPalindrome("srilanka");
         StackNQueueChecker.checkIfPalindrome("madam");
