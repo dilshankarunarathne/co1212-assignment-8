@@ -47,7 +47,7 @@ public class CharQueue implements Queue {
      */
     @Override
     public boolean isEmpty() {
-        return false;
+        return charArray.isEmpty();
     }
 
     /**
