@@ -34,7 +34,9 @@ public class StackChecker {
     }
 
     private static boolean checkStack(String substring) {
-        for ()
+        for (int i=0, i<substring.length(); i++) {
+            
+        }
     }
 
     private static void fillStack(String word, int limit) {
