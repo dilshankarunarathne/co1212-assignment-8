@@ -22,7 +22,7 @@ public class StackChecker {
         if (length % 2 == 1) {  // odd
             fillStack(word, length/2);
         } else {                // even
-
+            fillStack(word, length/2);
         }
 
         printStack();
@@ -34,8 +34,8 @@ public class StackChecker {
 
     private static void fillStack(String word, int limit) {
         fillStack(word.substring(0, limit+1));
-        System.out.println(limit);
-        System.out.println(word.substring(0, limit+1));
+//        System.out.println(limit);
+//        System.out.println(word.substring(0, limit+1));
     }
 
     private static void fillStack(String word) {
