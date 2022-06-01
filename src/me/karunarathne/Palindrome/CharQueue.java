@@ -9,6 +9,10 @@ public class CharQueue implements Queue {
         charArray = new ArrayList<>();
     }
 
+    public CharQueue() {
+        charArray = new ArrayList<>();
+    }
+
     /**
      * Add an element to the queue
      * @param o element whose presence in this collection is to be ensured
