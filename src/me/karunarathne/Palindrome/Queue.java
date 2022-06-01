@@ -4,6 +4,8 @@ import java.util.Collection;
 import java.util.Iterator;
 
 public class Queue implements java.util.Queue {
+    
+
     @Override
     public int size() {
         return 0;
@@ -54,6 +56,11 @@ public class Queue implements java.util.Queue {
         return new Object[0];
     }
 
+    /**
+     * Add an element to the queue
+     * @param o element whose presence in this collection is to be ensured
+     * @return
+     */
     @Override
     public boolean add(Object o) {
         return false;
