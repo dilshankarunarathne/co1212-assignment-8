@@ -29,7 +29,7 @@ public class CharQueue implements Queue {
      */
     @Override
     public void clear() {
-
+        charArray.clear();
     }
 
     /**
