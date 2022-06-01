@@ -26,12 +26,11 @@ public class StackChecker {
 //        }
 
         fillStack(word, length/2);
-        printResult(word, checkStack(word.substring(length/2, length)));
         
         printStack();   //TODO remove
         clearStack();
 
-        return false;
+        return printResult(word, checkStack(word.substring(length/2, length)));
     }
 
     private static boolean checkStack(String substring) {
