@@ -4,11 +4,12 @@ public class Main {
     public static void main(String[] args) {
         stackTests();
         queueTests();
+        stackNQueueTests();
     }
 
     private static void queueTests() {
         System.out.println("------------------------------");
-        System.out.println("         Q2-Queue");
+        System.out.println("         Q2 - Queue");
         QueueChecker.checkIfPalindrome("srilanka");
         QueueChecker.checkIfPalindrome("madam");
         QueueChecker.checkIfPalindrome("hannah");
@@ -17,16 +18,16 @@ public class Main {
 
     private static void stackTests() {
         System.out.println("------------------------------");
-        System.out.println("         Q1-Stack");
+        System.out.println("         Q1 - Stack");
         StackChecker.checkIfPalindrome("srilanka");
         StackChecker.checkIfPalindrome("madam");
         StackChecker.checkIfPalindrome("hannah");
         StackChecker.checkIfPalindrome("rocketman");
     }
 
-    private static void stackTests() {
+    private static void stackNQueueTests() {
         System.out.println("------------------------------");
-        System.out.println("         Q1-Stack");
+        System.out.println("      Q3 - Stack & Queue");
         StackChecker.checkIfPalindrome("srilanka");
         StackChecker.checkIfPalindrome("madam");
         StackChecker.checkIfPalindrome("hannah");
