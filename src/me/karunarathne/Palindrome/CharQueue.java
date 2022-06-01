@@ -92,7 +92,7 @@ public class CharQueue implements Queue {
     }
 
     /**
-     * not implemented
+     * not needed
      * @param a the array into which the elements of this collection are to be
      *        stored, if it is big enough; otherwise, a new array of the same
      *        runtime type is allocated for this purpose.
@@ -100,7 +100,7 @@ public class CharQueue implements Queue {
      */
     @Override
     public Object[] toArray(Object[] a) {
-        return new Object[0];
+        return toArray(a);
     }
 
     /**
