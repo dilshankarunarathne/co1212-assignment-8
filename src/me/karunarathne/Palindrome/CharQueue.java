@@ -17,8 +17,7 @@ public class CharQueue implements Queue {
     }
 
     /**
-     *
-     * @param 
+     * Removes and returns the last element (character) in the Queue
      * @return  character
      */
     public char deQueue () {
