@@ -57,31 +57,11 @@ public class CharQueue implements java.util.Queue {
         return new Object[0];
     }
 
-    /**
-     * Add an element to the queue
-     * @param o element whose presence in this collection is to be ensured
-     * @return
-     */
-    @Override
-    public boolean add(Object o) {
-        return false;
-    }
-
-    @Override
-    public boolean addAll(Collection c) {
-        return false;
-    }
-
-    @Override
-    public void clear() {
-
-    }
-
     @Override
     public boolean remove(Object o) {
         return false;
     }
-    
+
     @Override
     public boolean retainAll(Collection c) {
         return false;
