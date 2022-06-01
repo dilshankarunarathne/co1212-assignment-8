@@ -68,11 +68,6 @@ public class CharQueue implements java.util.Queue {
     }
 
     @Override
-    public boolean remove(Object o) {
-        return false;
-    }
-
-    @Override
     public boolean addAll(Collection c) {
         return false;
     }
@@ -81,6 +76,13 @@ public class CharQueue implements java.util.Queue {
     public void clear() {
 
     }
+    
+    @Override
+    public boolean remove(Object o) {
+        return false;
+    }
+
+
 
     @Override
     public boolean retainAll(Collection c) {
