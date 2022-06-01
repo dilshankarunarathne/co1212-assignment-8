@@ -42,7 +42,7 @@ public class StackChecker {
     private static void fillStack(String word) {
         word.chars()
                 .forEach(
-                        i -> charStack.push((char)i)
+                        i -> charStack.push((char) i)
                 );
     }
 
