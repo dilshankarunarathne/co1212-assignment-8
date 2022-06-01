@@ -26,18 +26,12 @@ public class StackChecker {
 //        }
 
         fillStack(word, length/2);
-        printResult(checkStack(word.substring(length/2, length)));
+        printResult(word, checkStack(word.substring(length/2, length)));
         
         printStack();   //TODO remove
         clearStack();
 
         return false;
-    }
-
-    private static void printResult(boolean palindrome) {
-        if (palindrome) {
-            
-        }
     }
 
     private static boolean checkStack(String substring) {
