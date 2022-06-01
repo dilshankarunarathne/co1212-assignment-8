@@ -8,7 +8,7 @@ public class StackNQueueChecker {
     private static int length;
 
     static {
-
+        charStack = new Stack<>();
     }
 
     public static boolean checkIfPalindrome(String word) {
