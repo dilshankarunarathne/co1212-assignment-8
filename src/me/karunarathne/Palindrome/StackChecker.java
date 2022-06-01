@@ -21,7 +21,7 @@ public class StackChecker {
          */
 
         if (length % 2 == 1) {  // odd
-
+            
         } else {                // even
 
         }
