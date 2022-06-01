@@ -6,10 +6,24 @@ public class StackNQueueChecker {
     private static Stack<Character> charStack;
     private static CharQueue charQueue;
 
+    static {
+
+    }
+
     public static boolean checkIfPalindrome(String word) {
         clearAll();
-        
+
         word.substring(0, )
+    }
+
+    private static void clearAll() {
+        if(charStack.equals(null)) {
+            charStack = new Stack<>();
+        } else {
+            charStack.clear();
+        }
+        
+
     }
 
     private static void fillStack(String word) {
