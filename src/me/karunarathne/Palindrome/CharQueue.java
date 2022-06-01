@@ -11,7 +11,7 @@ public class CharQueue implements Queue {
 
     public CharQueue(String word) {
         this();
-        charArray.addAll(Arrays.asList(word.toCharArray()));
+        charArray.addAll(Arrays.asList(word));
     }
 
     /**
@@ -21,11 +21,6 @@ public class CharQueue implements Queue {
      */
     @Override
     public boolean add(Object o) {
-        return false;
-    }
-
-    @Override
-    public boolean addAll(Collection c) {
         return false;
     }
 
@@ -41,6 +36,11 @@ public class CharQueue implements Queue {
 
     @Override
     public boolean isEmpty() {
+        return false;
+    }
+
+    @Override
+    public boolean addAll(Collection c) {
         return false;
     }
 
