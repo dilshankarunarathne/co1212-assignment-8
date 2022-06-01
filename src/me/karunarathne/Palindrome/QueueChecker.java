@@ -17,7 +17,7 @@ public class QueueChecker {
     }
 
     private static boolean checkQueue(String word) {
-        String slice = word;
+        String slice;
         if (length % 2 == 1) {  // odd
             slice = word.substring((length/2)+1, length);
         } else {                // even
