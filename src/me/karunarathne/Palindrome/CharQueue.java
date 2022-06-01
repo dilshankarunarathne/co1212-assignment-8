@@ -76,14 +76,12 @@ public class CharQueue implements java.util.Queue {
     public void clear() {
 
     }
-    
+
     @Override
     public boolean remove(Object o) {
         return false;
     }
-
-
-
+    
     @Override
     public boolean retainAll(Collection c) {
         return false;
