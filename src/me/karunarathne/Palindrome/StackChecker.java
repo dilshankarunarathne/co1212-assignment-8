@@ -31,7 +31,7 @@ public class StackChecker {
         return false;
     }
 
-    private static void fillStackHalf(String word) {
+    private static void fillStack(String word, int limit) {
 
     }
 
