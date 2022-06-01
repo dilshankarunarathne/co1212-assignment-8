@@ -16,6 +16,10 @@ public class CharQueue implements Queue {
         );
     }
 
+    public char get (int index) {
+        
+    }
+
     /**
      * Add an element to the queue
      * @param o element whose presence in this collection is to be ensured

@@ -23,7 +23,7 @@ public class QueueChecker {
         }
 
         for (int i=0; i<slice.length(); i++) {
-            if (slice.charAt(i) != charQueue.pop()) {
+            if (slice.charAt(i) != charQueue.()) {
                 return false;
             }
         }
