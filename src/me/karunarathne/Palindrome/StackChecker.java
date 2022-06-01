@@ -9,5 +9,7 @@ public class StackChecker {
         charStack = new Stack<>();
     }
 
-    public static boolean i
+    public static boolean isPalindrome (String word) {
+        
+    }
 }
