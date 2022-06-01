@@ -9,5 +9,5 @@ public class StackChecker {
         charStack = new Stack<>();
     }
 
-    public 
+    public static boolean i
 }
