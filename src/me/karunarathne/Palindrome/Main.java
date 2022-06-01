@@ -28,9 +28,9 @@ public class Main {
     private static void stackNQueueTests() {
         System.out.println("------------------------------");
         System.out.println("      Q3 - Stack & Queue");
-        StackChecker.checkIfPalindrome("srilanka");
-        StackChecker.checkIfPalindrome("madam");
-        StackChecker.checkIfPalindrome("hannah");
-        StackChecker.checkIfPalindrome("rocketman");
+        StackNQueueChecker.checkIfPalindrome("srilanka");
+        StackNQueueChecker.checkIfPalindrome("madam");
+        StackNQueueChecker.checkIfPalindrome("hannah");
+        StackNQueueChecker.checkIfPalindrome("rocketman");
     }
 }
