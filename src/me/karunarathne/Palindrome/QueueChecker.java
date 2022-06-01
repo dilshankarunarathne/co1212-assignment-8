@@ -3,7 +3,7 @@ package me.karunarathne.Palindrome;
 import java.util.Queue;
 
 public class QueueChecker {
-    private static Queue charQueue;
+    private static CharQueue charQueue;
     private static int length ;
 
     public static boolean checkIfPalindrome(String word) {
@@ -23,7 +23,7 @@ public class QueueChecker {
         }
 
         for (int i=0; i<slice.length(); i++) {
-            if (slice.charAt(i) != charQueue.()) {
+            if (slice.charAt(i) != charQueue.deQueue()) {
                 return false;
             }
         }
