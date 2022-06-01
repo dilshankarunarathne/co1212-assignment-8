@@ -27,7 +27,7 @@ public class StackChecker {
 
         fillStack(word, length/2);
 
-        printStack();   //TODO remove
+//        printStack();   //TODO remove
         clearStack();
 
         return printResult(word, checkStack(word.substring(length/2, length)));
