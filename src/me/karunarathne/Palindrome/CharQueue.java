@@ -87,6 +87,11 @@ public class CharQueue implements java.util.Queue {
         return false;
     }
 
+    /**
+     * not implemented
+     * @param c collection containing elements to be removed from this collection
+     * @return
+     */
     @Override
     public boolean removeAll(Collection c) {
         return false;
