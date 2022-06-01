@@ -33,6 +33,7 @@ public class CharQueue implements Queue {
     }
 
     /**
+     * not needed
      * Size (number of elements) in the Queue
      * @return number of elements
      */
@@ -42,6 +43,7 @@ public class CharQueue implements Queue {
     }
 
     /**
+     * not needed
      * Check whether the Queue is empty
      * @return is the Queue empty
      */
@@ -51,13 +53,13 @@ public class CharQueue implements Queue {
     }
 
     /**
-     * not implemented
+     * not needed
      * @param c collection containing elements to be added to this collection
      * @return
      */
     @Override
     public boolean addAll(Collection c) {
-        return false;
+        return charArray.addAll(c);
     }
 
     /**
