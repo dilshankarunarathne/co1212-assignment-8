@@ -39,6 +39,7 @@ public class StackChecker {
                 return false;
             }
         }
+        return true;
     }
 
     private static void fillStack(String word, int limit) {
