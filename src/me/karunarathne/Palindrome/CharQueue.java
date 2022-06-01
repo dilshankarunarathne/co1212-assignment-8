@@ -110,7 +110,7 @@ public class CharQueue implements Queue {
      */
     @Override
     public boolean remove(Object o) {
-        return false;
+        return charArray.remove((Character) o);
     }
 
     /**
