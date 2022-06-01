@@ -26,7 +26,7 @@ public class StackChecker {
 //        }
 
         fillStack(word, length/2);
-        
+
         printStack();   //TODO remove
         clearStack();
 
@@ -49,7 +49,7 @@ public class StackChecker {
                 );
     }
 
-    private static void printResult(String word, boolean palindrome) {
+    private static boolean printResult(String word, boolean palindrome) {
         System.out.print(word);
         if (!palindrome) {
             System.out.print(" not");
