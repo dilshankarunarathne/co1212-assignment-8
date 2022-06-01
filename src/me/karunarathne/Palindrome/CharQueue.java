@@ -8,6 +8,10 @@ import java.util.List;
 public class CharQueue implements Queue {
     private List<Character> charArray;
 
+    public CharQueue() {
+        
+    }
+
     /**
      * Add an element to the queue
      * @param o element whose presence in this collection is to be ensured
