@@ -23,6 +23,19 @@ public class StackNQueueChecker {
                 );
     }
 
+    private static void clearAll() {
+        if(charStack.equals(null)) {
+            charStack = new Stack<>();
+        } else {
+            charStack.clear();
+        }
+        if(charQueue.equals(null)) {
+            charQueue = new CharQueue();
+        } else {
+            charQueue.clear();
+        }
+    }
+
     private static boolean printResult(String word, boolean palindrome) {
         System.out.print(word + " is");
         if (!palindrome) {
