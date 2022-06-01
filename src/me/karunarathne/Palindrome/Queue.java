@@ -1,4 +1,4 @@
 package me.karunarathne.Palindrome;
 
-public class Queue {
+public class Queue implements java.util.Queue {
 }
