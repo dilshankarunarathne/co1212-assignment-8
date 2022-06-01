@@ -21,7 +21,7 @@ public class StackChecker {
                 );
         word.chars()
                 .forEach(
-                        i -> System.out.println((char)i)
+                        i -> charStack.push((char)i)
                 );
     }
 }
