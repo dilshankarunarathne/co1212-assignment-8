@@ -23,7 +23,9 @@ public class StackNQueueChecker {
     }
 
     private static boolean compare() {
-
+        for (int i=0; i<length/2; i++) {
+            if ()
+        }
     }
 
     private static void fillStack(String word) {
