@@ -19,15 +19,15 @@ public class StackChecker {
             with the rest of the elements
          */
 
-        if (length % 2 == 1) {  // odd
-            fillStack(word, length/2);
-        } else {                // even
-            fillStack(word, length/2);
-        }
+//        if (length % 2 == 1) {  // odd
+//            fillStack(word, length/2);
+//        } else {                // even
+//            fillStack(word, length/2);
+//        }
 
+        fillStack(word, length/2);
         printStack();
         clearStack();
-        printStack();
 
         return false;
     }
