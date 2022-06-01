@@ -7,6 +7,9 @@ public class StackNQueueChecker {
     private static CharQueue charQueue;
 
     public static boolean checkIfPalindrome(String word) {
+        clearAll();
+        
+        word.substring(0, )
     }
 
     private static void fillStack(String word) {
