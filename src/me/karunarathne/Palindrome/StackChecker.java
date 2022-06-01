@@ -40,7 +40,6 @@ public class StackChecker {
         } else {                // even
             slice = word.substring(length/2, length);
         }
-        String slice = word.substring(length/2, length);
 
         for (int i=0; i<slice.length(); i++) {
             if (slice.charAt(i) != charStack.pop()) {
