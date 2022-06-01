@@ -15,10 +15,16 @@ public class StackNQueueChecker {
 
         fillQueue(word);
         charQueue = new CharQueue(word.substring(0, word.length()/2));
+
+        return printResult(word, compare());
+    }
+
+    private static boolean compare() {
+
     }
 
     private static void fillQueue(String word) {
-        
+
     }
 
     private static void fillStack(String word) {
