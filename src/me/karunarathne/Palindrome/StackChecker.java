@@ -13,4 +13,8 @@ public class StackChecker {
         fillStack (word);
         return false;
     }
+
+    private static void fillStack(String word) {
+        word.chars().forEach();
+    }
 }
