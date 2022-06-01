@@ -30,10 +30,12 @@ public class StackChecker {
 //        printStack();     // TODO remove
 //        clearStack();     // TODO move
 
-        return printResult(word, checkStack(word.substring(length/2, length)));
+        return printResult(word, checkStack(word));
     }
 
-    private static boolean checkStack(String slice) {
+    private static boolean checkStack(String word) {
+        String slice = word.substring(length/2, length);
+
         for (int i=0; i<slice.length(); i++) {
             if (slice.charAt(i) != charStack.pop()) {
                 return false;
