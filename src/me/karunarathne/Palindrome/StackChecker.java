@@ -50,6 +50,14 @@ public class StackChecker {
                 );
     }
 
+    private static void printResult(String word, boolean palindrome) {
+        System.out.print(word);
+        if (!palindrome) {
+            System.out.print(" not");
+        }
+        System.out.println(" a palindrome.\n");
+    }
+
     private static void clearStack() {
         charStack.clear();
     }
