@@ -26,6 +26,8 @@ public class StackChecker {
 //        }
 
         fillStack(word, length/2);
+        checkStack(word.substring(length/2, length));
+        
         printStack();   //TODO remove
         clearStack();
 
