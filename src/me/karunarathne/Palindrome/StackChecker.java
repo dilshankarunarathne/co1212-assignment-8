@@ -63,9 +63,9 @@ public class StackChecker {
     }
 
     private static boolean printResult(String word, boolean palindrome) {
-        System.out.print(word + " is ");
+        System.out.print(word + " is");
         if (!palindrome) {
-            System.out.print("not");
+            System.out.print(" not");
         }
         System.out.println(" a palindrome.\n");
         return palindrome;
