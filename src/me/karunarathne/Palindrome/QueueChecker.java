@@ -6,6 +6,6 @@ public class QueueChecker {
     private static Queue <Character> charQueue;
 
     static {
-        charQueue
+        charQueue = new Queue<>();
     }
 }
