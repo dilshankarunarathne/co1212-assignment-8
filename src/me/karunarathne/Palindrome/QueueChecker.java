@@ -4,6 +4,7 @@ import java.util.Queue;
 
 public class QueueChecker {
     private static Queue charQueue;
+    private static int length ;
 
     public static boolean checkIfPalindrome(String word) {
         charQueue = new CharQueue(word.substring(0, word.length()/2));
