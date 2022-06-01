@@ -69,7 +69,7 @@ public class CharQueue implements Queue {
      */
     @Override
     public Iterator iterator() {
-        return null;
+        return charArray.iterator();
     }
 
     /**
