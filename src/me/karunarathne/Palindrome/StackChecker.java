@@ -34,7 +34,10 @@ public class StackChecker {
         return false;
     }
 
-    private static void printResult(boolean checkStack) {
+    private static void printResult(boolean palindrome) {
+        if (palindrome) {
+            
+        }
     }
 
     private static boolean checkStack(String substring) {
