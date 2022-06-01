@@ -14,7 +14,7 @@ public class QueueChecker {
         return false;
     }
 
-    private static boolean checkStack(String word) {
+    private static boolean checkQueue(String word) {
         String slice;
         if (length % 2 == 1) {  // odd
             slice = word.substring((length/2)+1, length);
@@ -23,7 +23,7 @@ public class QueueChecker {
         }
 
         for (int i=0; i<slice.length(); i++) {
-            if (slice.charAt(i) != charStack.pop()) {
+            if (slice.charAt(i) != charQueue.pop()) {
                 return false;
             }
         }
