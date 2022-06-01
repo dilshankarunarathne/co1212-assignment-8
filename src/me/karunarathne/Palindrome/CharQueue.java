@@ -88,7 +88,7 @@ public class CharQueue implements Queue {
      */
     @Override
     public Object[] toArray() {
-        return new Object[0];
+        return charArray.toArray();
     }
 
     /**
