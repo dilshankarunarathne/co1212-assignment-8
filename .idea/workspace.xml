@@ -70,7 +70,7 @@
       <updated>1654050651377</updated>
       <workItem from="1654050654764" duration="9000" />
       <workItem from="1654050728067" duration="1919000" />
-      <workItem from="1654062635486" duration="4209000" />
+      <workItem from="1654062635486" duration="4555000" />
     </task>
     <servers />
   </component>
@@ -87,5 +87,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/me/karunarathne/Palindrome/QueueChecker.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

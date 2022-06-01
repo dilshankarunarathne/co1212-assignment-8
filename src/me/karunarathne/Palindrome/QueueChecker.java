@@ -1,21 +1,18 @@
 package me.karunarathne.Palindrome;
 
-import java.util.Queue;
-
 public class QueueChecker {
-    private static CharQueue charQueue;
+    private static CharQueue charQueue ;
     private static int length ;
 
+    static {
+        charQueue = new CharQueue();
+    }
+
     public static boolean checkIfPalindrome(String word) {
+        charQueue.clear();
         length = word.length();
         charQueue = new CharQueue(word.substring(0, length/2));
 
-//        System.out.println(charQueue.deQueue());
-//        System.out.println(charQueue.deQueue());
-//        System.out.println(charQueue.deQueue());
-
-
-//        printQueue();   // TODO remove
         return printResult(word, checkQueue(word));
     }
 
@@ -27,7 +24,7 @@ public class QueueChecker {
             slice = word.substring(length/2, length);
         }
 
-        for (int i=slice.length(); i<=0; i++) {
+        for (int i=slice.length()-1; i>=0; i--) {
             if (slice.charAt(i) != charQueue.deQueue()) {
                 return false;
             }
