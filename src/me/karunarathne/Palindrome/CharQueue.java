@@ -9,7 +9,7 @@ public class CharQueue implements Queue {
     private List<Character> charArray;
 
     public CharQueue() {
-        
+
     }
 
     /**
