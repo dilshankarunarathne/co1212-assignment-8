@@ -16,6 +16,12 @@ public class StackChecker {
 
 //        printStack();
 
+        if (length % 2 == 1) {  // odd
+
+        } else {                // even
+
+        }
+
         clearStack();
 
         return false;
