@@ -36,7 +36,7 @@ public class StackChecker {
     private static boolean checkStack(String word) {
         String slice;
         if (length % 2 == 1) {  // odd    TODO check again
-            fillStack(word, length/2);
+            slice = word.substring((length/2)+1, length);
         } else {                // even
             slice = word.substring(length/2, length);
         }
