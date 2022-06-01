@@ -34,11 +34,11 @@ public class StackChecker {
     }
 
     private static boolean checkStack(String word) {
-        //        if (length % 2 == 1) {  // odd    TODO check again
-//            fillStack(word, length/2);
-//        } else {                // even
-//            fillStack(word, length/2);
-//        }
+        if (length % 2 == 1) {  // odd    TODO check again
+            fillStack(word, length/2);
+        } else {                // even
+            fillStack(word, length/2);
+        }
         String slice = word.substring(length/2, length);
 
         for (int i=0; i<slice.length(); i++) {
