@@ -23,4 +23,13 @@ public class Main {
         StackChecker.checkIfPalindrome("hannah");
         StackChecker.checkIfPalindrome("rocketman");
     }
+
+    private static void stackTests() {
+        System.out.println("------------------------------");
+        System.out.println("         Q1-Stack");
+        StackChecker.checkIfPalindrome("srilanka");
+        StackChecker.checkIfPalindrome("madam");
+        StackChecker.checkIfPalindrome("hannah");
+        StackChecker.checkIfPalindrome("rocketman");
+    }
 }
