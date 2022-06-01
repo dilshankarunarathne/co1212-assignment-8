@@ -33,7 +33,7 @@ public class CharQueue implements Queue {
     }
 
     /**
-     * not implemented
+     * Size (number of elements) in the Queue
      * @return number of elements
      */
     @Override
