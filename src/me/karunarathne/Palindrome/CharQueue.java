@@ -104,7 +104,7 @@ public class CharQueue implements Queue {
     }
 
     /**
-     * not implemented
+     * not needed
      * @param o element to be removed from this collection, if present
      * @return
      */
