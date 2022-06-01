@@ -73,7 +73,7 @@ public class CharQueue implements Queue {
     }
 
     /**
-     * not implemented
+     * not needed
      * @param o element whose presence in this collection is to be tested
      * @return
      */
@@ -83,7 +83,7 @@ public class CharQueue implements Queue {
     }
 
     /**
-     * not implemented
+     * not needed
      * @return
      */
     @Override
