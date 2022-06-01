@@ -33,9 +33,11 @@ public class StackChecker {
         return printResult(word, checkStack(word.substring(length/2, length)));
     }
 
-    private static boolean checkStack(String substring) {
-        for (int i=0; i<substring.length(); i++) {
-            
+    private static boolean checkStack(String slice) {
+        for (int i=0; i<slice.length(); i++) {
+            if (slice.charAt(i) != charStack.pop()) {
+                return false;
+            }
         }
     }
 
