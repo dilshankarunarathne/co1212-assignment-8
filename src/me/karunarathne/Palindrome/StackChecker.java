@@ -15,10 +15,10 @@ public class StackChecker {
     }
 
     private static void fillStack(String word) {
-        word.chars()
-                .forEach(
-                        i -> System.out.println((char)i)
-                );
+//        word.chars()
+//                .forEach(
+//                        i -> System.out.println((char)i)
+//                );
         word.chars()
                 .forEach(
                         i -> charStack.push((char)i)
