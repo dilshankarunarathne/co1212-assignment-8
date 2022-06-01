@@ -19,7 +19,7 @@ public class StackChecker {
             start popping
             with the rest of the elements
          */
-        
+
         if (length % 2 == 1) {  // odd
 
         } else {                // even
@@ -30,6 +30,13 @@ public class StackChecker {
 
         return false;
     }
+    
+    private static void fillStack(String word) {
+        word.chars()
+                .forEach(
+                        i -> charStack.push((char)i)
+                );
+    }
 
     private static void clearStack() {
         charStack.clear();
@@ -37,14 +44,8 @@ public class StackChecker {
 
     private static void printStack() {
         charStack.forEach(
-                        i -> System.out.println((char)i)
-                );
+                i -> System.out.println((char)i)
+        );
     }
 
-    private static void fillStack(String word) {
-        word.chars()
-                .forEach(
-                        i -> charStack.push((char)i)
-                );
-    }
 }
