@@ -140,7 +140,7 @@ public class CharQueue implements Queue {
      */
     @Override
     public boolean containsAll(Collection c) {
-        return false;
+        return charArray.containsAll(c);
     }
 
     /**
