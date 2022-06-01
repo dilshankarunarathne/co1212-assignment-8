@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46702eb8-f088-4f50-8d78-920a8212a223" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/me/karunarathne/Palindrome/StackChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/karunarathne/Palindrome/StackChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/me/karunarathne/Palindrome/QueueChecker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,14 +28,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="me.karunarathne.Palindrome.Main" />
@@ -66,7 +70,7 @@
       <updated>1654050651377</updated>
       <workItem from="1654050654764" duration="9000" />
       <workItem from="1654050728067" duration="1919000" />
-      <workItem from="1654062635486" duration="932000" />
+      <workItem from="1654062635486" duration="1259000" />
     </task>
     <servers />
   </component>
