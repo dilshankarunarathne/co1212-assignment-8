@@ -48,7 +48,7 @@ public class CharQueue implements java.util.Queue {
     }
 
     /**
-     * not using here, but useful
+     * would be useful
      * @return
      */
     @Override
