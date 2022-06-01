@@ -9,5 +9,7 @@ public class QueueChecker {
         charQueue = new CharQueue();
     }
 
-    
+    public static boolean isPalindrome(String word) {
+
+    }
 }
