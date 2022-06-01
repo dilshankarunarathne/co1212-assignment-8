@@ -15,6 +15,7 @@ public class QueueChecker {
 //        System.out.println(charQueue.deQueue());
 
 
+        printResult(word, checkQueue(word));
         printQueue();   // TODO remove
         return false;
     }
