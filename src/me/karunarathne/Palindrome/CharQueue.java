@@ -97,6 +97,11 @@ public class CharQueue implements java.util.Queue {
         return false;
     }
 
+    /**
+     * not implemented
+     * @param o the element to add
+     * @return
+     */
     @Override
     public boolean offer(Object o) {
         return false;
