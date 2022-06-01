@@ -21,6 +21,10 @@ public class StackChecker {
         return false;
     }
 
+    private static void clearStack() {
+        charStack.clear();
+    }
+
     private static void printStack() {
         charStack.forEach(
                         i -> System.out.println((char)i)
