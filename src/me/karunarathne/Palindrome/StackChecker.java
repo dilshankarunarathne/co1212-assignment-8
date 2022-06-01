@@ -10,7 +10,7 @@ public class StackChecker {
     }
 
     public static boolean isPalindrome (String word) {
-
+        fillStack (word);
         return false;
     }
 }
