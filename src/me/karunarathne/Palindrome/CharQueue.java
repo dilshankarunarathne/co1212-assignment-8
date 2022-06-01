@@ -79,7 +79,7 @@ public class CharQueue implements Queue {
      */
     @Override
     public boolean contains(Object o) {
-        return false;
+        return charArray.contains((Character) o);
     }
 
     /**
