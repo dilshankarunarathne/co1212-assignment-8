@@ -92,6 +92,11 @@ public class CharQueue implements java.util.Queue {
         return false;
     }
 
+    /**
+     * not implemented
+     * @param c collection to be checked for containment in this collection
+     * @return
+     */
     @Override
     public boolean containsAll(Collection c) {
         return false;
