@@ -16,8 +16,13 @@ public class CharQueue implements Queue {
         );
     }
 
-    public char get (int index) {
-        
+    /**
+     *
+     * @param 
+     * @return  character
+     */
+    public char deQueue () {
+        return 'c';
     }
 
     /**
