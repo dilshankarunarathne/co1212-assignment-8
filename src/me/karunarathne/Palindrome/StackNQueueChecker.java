@@ -17,19 +17,12 @@ public class StackNQueueChecker {
 
         fillStack(word.substring(0, length/2));
 
-
-        fillQueue(word.substring(length/2, length));
-
-        charQueue = new CharQueue();
+        charQueue = new CharQueue(word.substring(length/2, length));
 
         return printResult(word, compare());
     }
 
     private static boolean compare() {
-
-    }
-
-    private static void fillQueue(String word) {
 
     }
 
