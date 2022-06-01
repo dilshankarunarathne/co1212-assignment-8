@@ -4,6 +4,7 @@ import java.util.Stack;
 
 public class StackChecker {
     private static Stack<Character> charStack ;
+    private static int length;
 
     static {
         charStack = new Stack<>();
