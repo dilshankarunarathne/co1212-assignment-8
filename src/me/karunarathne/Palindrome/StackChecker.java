@@ -11,6 +11,7 @@ public class StackChecker {
     }
 
     public static boolean checkIfPalindrome (String word) {
+        clearStack();
         length = word.length();
 
         /*
@@ -26,9 +27,6 @@ public class StackChecker {
 //        }
 
         fillStack(word, length/2);
-
-//        printStack();     // TODO remove
-//        clearStack();     // TODO move
 
         return printResult(word, checkStack(word));
     }
