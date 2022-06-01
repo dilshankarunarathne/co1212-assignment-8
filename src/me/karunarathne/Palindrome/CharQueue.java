@@ -1,10 +1,11 @@
 package me.karunarathne.Palindrome;
 
+import java.util.Queue;
 import java.util.Collection;
 import java.util.Iterator;
 import java.util.List;
 
-public class CharQueue implements java.util.Queue {
+public class CharQueue implements Queue {
     private List<Character> charArray;
 
     /**
