@@ -15,15 +15,15 @@ public class StackNQueueChecker {
         length = word.length();
         clearAll();
 
-        fillStack(word.substring(0, length/2));
+        fillStack(word.substring(0, length / 2));
 
-        charQueue = new CharQueue(word.substring(length/2, length));
+        charQueue = new CharQueue(word.substring(length / 2, length));
 
         return printResult(word, compare());
     }
 
     private static boolean compare() {
-        for (int i=0; i<length/2; i++) {
+        for (int i = 0; i < length / 2; i++) {
             if (charStack.pop() != charQueue.deQueue()) {
                 return false;
             }
@@ -39,16 +39,8 @@ public class StackNQueueChecker {
     }
 
     private static void clearAll() {
-        if(charStack.equals(null)) {
-            charStack = new Stack<>();
-        } else {
-            charStack.clear();
-        }
-        if(charQueue.equals(null)) {
-            charQueue = new CharQueue();
-        } else {
-            charQueue.clear();
-        }
+        charStack.clear();
+        charQueue.clear();
     }
 
     private static boolean printResult(String word, boolean palindrome) {
