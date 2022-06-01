@@ -6,7 +6,6 @@ public class Main {
     }
 
     private static void queueTests() {
-        QueueChecker.checkIfPalindrome()
         StackChecker.checkIfPalindrome("srilanka");
         StackChecker.checkIfPalindrome("madam");
         StackChecker.checkIfPalindrome("hannah");
