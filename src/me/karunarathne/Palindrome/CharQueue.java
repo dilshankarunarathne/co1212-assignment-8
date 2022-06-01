@@ -25,6 +25,7 @@ public class CharQueue implements Queue {
     }
 
     /**
+     * not needed
      * Removes all elements in the Queue
      */
     @Override
