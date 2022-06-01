@@ -11,8 +11,9 @@ public class StackChecker {
 
     public static boolean isPalindrome (String word) {
         fillStack (word);
-
         
+        printStack();
+
         return false;
     }
 
