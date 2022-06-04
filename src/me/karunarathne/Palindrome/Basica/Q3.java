@@ -21,5 +21,7 @@ public class Q3 {
         printResult(checkIfPalindrome());
     }
 
-    
+    private static void populateStackNQueue(String input) {
+        
+    }
 }
