@@ -7,6 +7,7 @@ public class Q1 {
     private static Scanner scanner ;
 
     public static void main(String[] args) {
+        scanner = new Scanner(System.in);
         stack = new CharStack();
         populateStack(readInput());
     }
