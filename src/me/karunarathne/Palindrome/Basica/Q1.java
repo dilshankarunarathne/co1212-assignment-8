@@ -15,6 +15,14 @@ public class Q1 {
         printResult(checkIfPalindrome());
     }
 
+    private static void printResult(boolean isPalindrome) {
+        System.out.print(inputString + " is");
+        if (!isPalindrome) {
+            System.out.print(" not");
+        }
+        System.out.println(" a palindrome.");
+    }
+
     private static boolean checkIfPalindrome() {
         String slice;
         if (strLen % 2 == 1) {  // odd
