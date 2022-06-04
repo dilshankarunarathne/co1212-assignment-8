@@ -12,6 +12,12 @@ public class Q1 {
         populateStack(readInput());
     }
 
+    private static void populateStack(String input) {
+        input.chars().forEach(
+                character -> stack.push((char) character)
+        );
+    }
+
     private static String readInput() {
         return scanner.nextLine();
     }
