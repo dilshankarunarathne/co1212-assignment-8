@@ -29,4 +29,10 @@ public class Q2 {
         inputString = scanner.nextLine();
         return inputString.substring(0, inputString.length()/2);
     }
+
+    private static void populateStack(String input) {
+        input.chars().forEach(
+                character -> stack.push((char) character)
+        );
+    }
 }
