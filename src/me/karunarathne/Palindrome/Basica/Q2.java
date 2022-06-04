@@ -25,9 +25,7 @@ public class Q2 {
         }
 
         for (int i=0; i<slice.length(); i++) {
-            char x = queue.dequeue();
-            System.out.println(slice.charAt(i) + " - " + x);
-            if (slice.charAt(i) != x) {
+            if (slice.charAt(i) != queue.dequeue()) {
                 return false;
             }
         }
