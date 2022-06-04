@@ -12,8 +12,9 @@ public class CharStack {
         if (size == 0) {
             headNode = new Node(character);
         } else {
-            
+
         }
+        size ++ ;
     }
     private class Node {
         char head;
