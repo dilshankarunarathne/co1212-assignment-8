@@ -13,11 +13,13 @@ public class Q3 {
         scanner = new Scanner(System.in);
         queue = new CharQueue();
 
-        populateStack(readInput());
+        populateStackNQueue(readInput());
         strLen = inputString.length();
 
 
 
         printResult(checkIfPalindrome());
     }
+
+    
 }
