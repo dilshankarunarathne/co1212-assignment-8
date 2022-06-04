@@ -14,6 +14,10 @@ public class Q1 {
         printResult(checkIfPalindrome());
     }
 
+    private static boolean checkIfPalindrome() {
+        
+    }
+
     private static void populateStack(String input) {
         input.chars().forEach(
                 character -> stack.push((char) character)
