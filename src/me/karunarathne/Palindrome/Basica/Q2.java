@@ -15,4 +15,12 @@ public class Q2 {
         strLen = inputString.length();
         printResult(checkIfPalindrome());
     }
+
+    private static void printResult(boolean isPalindrome) {
+        System.out.print(inputString + " is");
+        if (!isPalindrome) {
+            System.out.print(" not");
+        }
+        System.out.println(" a palindrome.");
+    }
 }
