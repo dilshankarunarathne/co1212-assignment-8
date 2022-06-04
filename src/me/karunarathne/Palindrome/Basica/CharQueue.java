@@ -13,8 +13,9 @@ public class CharQueue {
         if (size == 0) {
             return null;
         }
+        char temp = lastNode.data;
         if (size == 1) {
-            
+
         }
     }
 
