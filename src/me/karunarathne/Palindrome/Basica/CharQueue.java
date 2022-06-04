@@ -15,6 +15,8 @@ public class CharQueue {
         }
         char temp = lastNode.data;
         if (size == 1) {
+
+        } else {
             
         }
         lastNode.prev.next = null;
