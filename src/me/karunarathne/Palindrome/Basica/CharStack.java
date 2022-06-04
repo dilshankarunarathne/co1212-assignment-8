@@ -18,13 +18,20 @@ public class CharStack {
     }
 
     public Character pop() {
+        char temp;
         if (size == 0) {
             return null;
+        } else if (size == 1) {
+            temp = headNode.data;
+
+        } else {
+            temp = headNode.data;
+            headNode.prev.next = null;
+            headNode = headNode.prev;
         }
-        headNode.prev.next = null;
-        headNode = headNode.prev;
+
         size -- ;
-        return headNode.next.data;
+        return temp;
     }
 
     private static class Node {
