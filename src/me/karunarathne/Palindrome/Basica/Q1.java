@@ -6,6 +6,7 @@ public class Q1 {
     private static CharStack stack ;
     private static Scanner scanner ;
     private static String inputString ;
+    private static int strLen ;
 
     public static void main(String[] args) {
         scanner = new Scanner(System.in);
@@ -15,7 +16,19 @@ public class Q1 {
     }
 
     private static boolean checkIfPalindrome() {
-        
+        String slice;
+        if (strLen % 2 == 1) {  // odd
+            slice = inputString.substring((strLen/2)+1, strLen);
+        } else {                // even
+            slice = inputString.substring(strLen/2, strLen);
+        }
+
+        for (int i=0; i<slice.length(); i++) {
+            if (slice.charAt(i) != stack.pop()) {
+                return false;
+            }
+        }
+        return true;
     }
 
     private static void populateStack(String input) {
