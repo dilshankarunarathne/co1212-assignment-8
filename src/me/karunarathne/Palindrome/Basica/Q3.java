@@ -18,7 +18,12 @@ public class Q3 {
     }
 
     private static boolean checkIfPalindrome() {
-
+        for (int i=0; i<slice.length(); i++) {
+            if (slice.charAt(i) != queue.dequeue()) {
+                return false;
+            }
+        }
+        return true;
     }
 
     private static void printResult(boolean isPalindrome) {
