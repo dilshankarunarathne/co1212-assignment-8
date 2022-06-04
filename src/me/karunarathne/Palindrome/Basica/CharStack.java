@@ -24,7 +24,7 @@ public class CharStack {
         headNode.prev.next = null;
         headNode = headNode.prev;
         size -- ;
-        return headNode.data;
+        return headNode.next.data;
     }
 
     private static class Node {
