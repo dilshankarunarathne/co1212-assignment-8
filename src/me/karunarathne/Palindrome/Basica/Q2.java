@@ -16,6 +16,23 @@ public class Q2 {
         printResult(checkIfPalindrome());
     }
 
+    private static boolean checkIfPalindrome() {
+        String slice;
+        if (strLen % 2 == 1) {  // odd
+            slice = inputString.substring((strLen/2)+1, strLen);
+        } else {                // even
+            slice = inputString.substring(strLen/2, strLen);
+        }
+
+        for (int i=0; i<slice.length(); i++) {
+            char x =stack.pop();
+            if (slice.charAt(i) != x) {
+                return false;
+            }
+        }
+        return true;
+    }
+
     private static void printResult(boolean isPalindrome) {
         System.out.print(inputString + " is");
         if (!isPalindrome) {
