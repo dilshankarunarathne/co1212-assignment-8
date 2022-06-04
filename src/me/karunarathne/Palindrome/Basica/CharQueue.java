@@ -9,7 +9,11 @@ public class CharQueue {
     }
 
     public void enqueue(char character) {
+        if (size == 0) {
+            headNode = new Node(character);
+        }
 
+        size ++ ;
     }
 
     private static class Node {
