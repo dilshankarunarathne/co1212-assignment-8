@@ -17,16 +17,16 @@ public class CharStack {
         size ++ ;
     }
     private class Node {
-        char head;
+        char data;
         Node next;
         Node prev;
 
         public Node(char head) {
-            this.head = head;
+            this.data = head;
         }
 
         public Node(char head, Node prev) {
-            this.head = head;
+            this.data = head;
             this.prev = prev;
         }
     }
