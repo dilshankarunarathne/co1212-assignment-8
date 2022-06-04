@@ -18,7 +18,9 @@ public class CharStack {
     }
 
     public char pop() {
-        
+        if (size == 0) {
+            
+        }
     }
 
     private class Node {
