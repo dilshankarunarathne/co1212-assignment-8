@@ -28,6 +28,7 @@ public class CharStack {
         public Node(char data, Node prev) {
             this.data = data;
             this.prev = prev;
+            prev.next = this;
         }
     }
 }
