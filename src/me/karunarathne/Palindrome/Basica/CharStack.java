@@ -1,7 +1,7 @@
 package me.karunarathne.Palindrome.Basica;
 
 public class CharStack {
-    private Node genesisNode;
+    private Node headNode;
     private int size;
 
     public CharStack() {
@@ -10,9 +10,9 @@ public class CharStack {
 
     public void push(char character) {
         if (size == 0) {
-            genesisNode = new Node(character);
+            headNode = new Node(character);
         } else {
-
+            
         }
     }
     private class Node {
