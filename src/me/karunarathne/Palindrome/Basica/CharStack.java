@@ -21,12 +21,12 @@ public class CharStack {
         Node next;
         Node prev;
 
-        public Node(char head) {
-            this.data = head;
+        public Node(char data) {
+            this.data = data;
         }
 
-        public Node(char head, Node prev) {
-            this.data = head;
+        public Node(char data, Node prev) {
+            this.data = data;
             this.prev = prev;
         }
     }
