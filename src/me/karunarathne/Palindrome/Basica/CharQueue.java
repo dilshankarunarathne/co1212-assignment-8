@@ -4,6 +4,10 @@ public class CharQueue {
     private Node headNode;
     private int size;
 
+    public void enqueue(char character) {
+        
+    }
+
     private static class Node {
         char data;
         Node next;
