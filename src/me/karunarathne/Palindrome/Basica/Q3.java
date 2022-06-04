@@ -13,7 +13,7 @@ public class Q3 {
         scanner = new Scanner(System.in);
         queue = new CharQueue();
 
-        populateStackNQueue(readInput());
+        populate(readInput());
         strLen = inputString.length();
 
 
@@ -21,7 +21,24 @@ public class Q3 {
         printResult(checkIfPalindrome());
     }
 
-    private static void populateStackNQueue(String input) {
-        
+    private static String readInput() {
+        System.out.print("Enter a string: ");
+        inputString = scanner.nextLine();
+        return inputString.substring(0, inputString.length()/2);
+    }
+
+    private static void populate(String input) {
+        input.substring(0, inputString.length()/2).chars().forEach(
+                character -> stack.push((char) character)
+        );
+        if (strLen % 2 == 1) {  // odd
+            inputString.substring((strLen/2)+1, strLen).chars().forEach(
+                    character -> queue.enqueue((char) character)
+            );
+        } else {                // even
+            inputString.substring(strLen/2, strLen).chars().forEach(
+                    character -> queue.enqueue((char) character)
+            );
+        }
     }
 }
