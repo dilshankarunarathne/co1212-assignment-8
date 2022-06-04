@@ -10,7 +10,7 @@ public class Q2 {
 
     public static void main(String[] args) {
         scanner = new Scanner(System.in);
-        stack = new CharStack();
+        queue = new CharQueue();
         populateStack(readInput());
         strLen = inputString.length();
         printResult(checkIfPalindrome());
