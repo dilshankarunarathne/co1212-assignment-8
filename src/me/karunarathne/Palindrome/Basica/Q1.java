@@ -11,6 +11,7 @@ public class Q1 {
         scanner = new Scanner(System.in);
         stack = new CharStack();
         populateStack(readInput());
+        printResult(checkIfPalindrome());
     }
 
     private static void populateStack(String input) {
