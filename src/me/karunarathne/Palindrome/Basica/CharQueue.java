@@ -14,10 +14,11 @@ public class CharQueue {
             return null;
         }
         char temp = lastNode.data;
+        lastNode.prev.next = null;
         if (size == 1) {
             lastNode.prev.next = null;
         } else {
-            
+            lastNode.
         }
     }
 
