@@ -9,7 +9,9 @@ public class CharStack {
     }
 
     public void push(char character) {
-        if
+        if (size == 0) {
+            
+        }
     }
     private class Node {
         char head;
