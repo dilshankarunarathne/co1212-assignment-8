@@ -23,7 +23,7 @@ public class CharStack {
         }
         char temp = headNode.data;
         if (size == 1) {
-
+            headNode = null;
         } else {
             headNode.prev.next = null;
             headNode = headNode.prev;
