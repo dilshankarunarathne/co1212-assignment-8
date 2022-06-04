@@ -9,6 +9,10 @@ public class CharQueue {
         size = 0;
     }
 
+    public char dequeue() {
+        
+    }
+
     public void enqueue(char character) {
         if (size == 0) {
             firstNode = new Node(character);
