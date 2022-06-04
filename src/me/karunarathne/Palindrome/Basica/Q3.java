@@ -12,15 +12,13 @@ public class Q3 {
     public static void main(String[] args) {
         scanner = new Scanner(System.in);
         queue = new CharQueue();
-
         populate(readInput());
         strLen = inputString.length();
-
         printResult(checkIfPalindrome());
     }
 
     private static boolean checkIfPalindrome() {
-        
+
     }
 
     private static void printResult(boolean isPalindrome) {
