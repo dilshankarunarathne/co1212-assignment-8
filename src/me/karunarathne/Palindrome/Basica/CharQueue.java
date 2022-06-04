@@ -17,10 +17,10 @@ public class CharQueue {
         if (size == 1) {
 
         } else {
-            
+            lastNode.prev.next = null;
+            lastNode = lastNode.prev;
         }
-        lastNode.prev.next = null;
-        lastNode = lastNode.prev;
+
         size -- ;
         return temp;
     }
