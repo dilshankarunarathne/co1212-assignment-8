@@ -23,4 +23,10 @@ public class Q2 {
         }
         System.out.println(" a palindrome.");
     }
+
+    private static String readInput() {
+        System.out.print("Enter a string: ");
+        inputString = scanner.nextLine();
+        return inputString.substring(0, inputString.length()/2);
+    }
 }
