@@ -1,7 +1,8 @@
 package me.karunarathne.Palindrome.Basica;
 
 public class CharQueue {
-    private Node headNode;
+    private Node firstNode;
+    private Node lastNode;
     private int size;
 
     public CharQueue() {
@@ -10,9 +11,12 @@ public class CharQueue {
 
     public void enqueue(char character) {
         if (size == 0) {
-            headNode = new Node(character);
+            firstNode = new Node(character);
+        } else if (size == 1) {
+            lastNode = new Node(character, firstNode);
+            firstNode.next = lastNode;
         } else {
-            headNode = new Node(character, headNode);
+            
         }
 
         size ++ ;
