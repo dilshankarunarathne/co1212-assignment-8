@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="46702eb8-f088-4f50-8d78-920a8212a223" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/karunarathne/Palindrome/QueueChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/karunarathne/Palindrome/QueueChecker.java" afterDir="false" />
-    </list>
+    <list default="true" id="46702eb8-f088-4f50-8d78-920a8212a223" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,6 +81,7 @@
       <workItem from="1654073973238" duration="56000" />
       <workItem from="1654074219683" duration="82000" />
       <workItem from="1654321948061" duration="581000" />
+      <workItem from="1654351115566" duration="338000" />
     </task>
     <servers />
   </component>
