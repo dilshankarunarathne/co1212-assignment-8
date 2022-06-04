@@ -10,7 +10,9 @@ public class CharStack {
 
     public void push(char character) {
         if (size == 0) {
-            
+            genesisNode = new Node(character);
+        } else {
+
         }
     }
     private class Node {
