@@ -19,6 +19,10 @@ public class Q3 {
         printResult(checkIfPalindrome());
     }
 
+    private static boolean checkIfPalindrome() {
+        
+    }
+
     private static void printResult(boolean isPalindrome) {
         System.out.print(inputString + " is");
         if (!isPalindrome) {
