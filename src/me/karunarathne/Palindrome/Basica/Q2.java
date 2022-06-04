@@ -32,7 +32,7 @@ public class Q2 {
 
     private static void populateStack(String input) {
         input.chars().forEach(
-                character -> stack.push((char) character)
+                character -> queue.enqueue((char) character)
         );
     }
 }
