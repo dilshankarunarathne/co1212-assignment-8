@@ -24,8 +24,10 @@ public class Q2 {
             slice = inputString.substring(strLen/2, strLen);
         }
 
-        for (int i=slice.length(); i<=0; i--) {
-            if (slice.charAt(i) != queue.dequeue()) {
+        for (int i=0; i<slice.length(); i++) {
+            char x = queue.dequeue();
+            System.out.println(slice.charAt(i) + " - " + x);
+            if (slice.charAt(i) != x) {
                 return false;
             }
         }

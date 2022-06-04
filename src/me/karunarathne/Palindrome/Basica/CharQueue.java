@@ -14,7 +14,11 @@ public class CharQueue {
             return null;
         }
         char temp = lastNode.data;
+        if (size == 1) {
+            
+        }
         lastNode.prev.next = null;
+        lastNode = lastNode.prev;
         size -- ;
         return temp;
     }
@@ -22,6 +26,7 @@ public class CharQueue {
     public void enqueue(char character) {
         if (size == 0) {
             firstNode = new Node(character);
+            lastNode = firstNode;
         } else if (size == 1) {
             lastNode = new Node(character, firstNode);
             firstNode.next = lastNode;
