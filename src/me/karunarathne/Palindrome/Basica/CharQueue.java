@@ -1,9 +1,9 @@
 package me.karunarathne.Palindrome.Basica;
 
 public class CharQueue {
-    private CharStack.Node headNode;
+    private Node headNode;
     private int size;
-    
+
     private static class Node {
         char data;
         Node next;
