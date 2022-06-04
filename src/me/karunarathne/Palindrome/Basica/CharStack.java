@@ -16,6 +16,7 @@ public class CharStack {
         }
         size ++ ;
     }
+    
     private class Node {
         char data;
         Node next;
