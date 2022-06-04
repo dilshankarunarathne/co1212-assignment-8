@@ -21,11 +21,12 @@ public class CharStack {
         char temp;
         if (size == 0) {
             return null;
-        } else if (size == 1) {
-            temp = headNode.data;
+        }
+        temp = headNode.data;
+        if (size == 1) {
+
 
         } else {
-            temp = headNode.data;
             headNode.prev.next = null;
             headNode = headNode.prev;
         }
