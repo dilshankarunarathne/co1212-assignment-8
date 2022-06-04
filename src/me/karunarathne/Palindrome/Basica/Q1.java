@@ -8,7 +8,7 @@ public class Q1 {
         populateStack(readInput());
     }
 
-    private static readInput() {
-        
+    private static String readInput() {
+
     }
 }
