@@ -13,7 +13,9 @@ public class CharQueue {
         if (size == 0) {
             return null;
         }
-        if ()
+        if (size == 1) {
+            
+        }
     }
 
     public void enqueue(char character) {
