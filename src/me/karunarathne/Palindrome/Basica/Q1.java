@@ -33,8 +33,7 @@ public class Q1 {
         }
 
         for (int i=0; i<slice.length(); i++) {
-            char x =stack.pop();
-            if (slice.charAt(i) != x) {
+            if (slice.charAt(i) != stack.pop()) {
                 return false;
             }
         }
