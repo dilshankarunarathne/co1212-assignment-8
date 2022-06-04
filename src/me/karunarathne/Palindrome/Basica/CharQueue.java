@@ -11,6 +11,8 @@ public class CharQueue {
     public void enqueue(char character) {
         if (size == 0) {
             headNode = new Node(character);
+        } else {
+            headNode = new Node(character, headNode);
         }
 
         size ++ ;
