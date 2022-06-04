@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Q1 {
     private static CharStack stack ;
     private static Scanner scanner ;
+    private static String inputString ;
 
     public static void main(String[] args) {
         scanner = new Scanner(System.in);
