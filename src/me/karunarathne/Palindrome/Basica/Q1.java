@@ -35,7 +35,6 @@ public class Q1 {
         for (int i=0; i<slice.length(); i++) {
             char x =stack.pop();
             if (slice.charAt(i) != x) {
-                System.out.println(slice.charAt(i) + " - " + x);
                 return false;
             }
         }
