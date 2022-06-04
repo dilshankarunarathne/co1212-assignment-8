@@ -26,7 +26,7 @@ public class CharStack {
         return headNode.data;
     }
 
-    private class Node {
+    private static class Node {
         char data;
         Node next;
         Node prev;
