@@ -9,6 +9,7 @@ public class CharQueue {
         size = 0;
     }
 
+    // TODO this works just like a stack
     public Character dequeue() {
         if (size == 0) {
             return null;

@@ -11,15 +11,18 @@ public class Q3 {
 
     public static void main(String[] args) {
         scanner = new Scanner(System.in);
+        stack = new CharStack();
         queue = new CharQueue();
         populate(readInput());
-        strLen = inputString.length();
         printResult(checkIfPalindrome());
     }
 
     private static boolean checkIfPalindrome() {
-        for (int i=0; i<inputString.length(); i++) {
-            if (queue.dequeue() != queue.dequeue()) {
+        for (int i=0; i<strLen/2; i++) {
+            char x = queue.dequeue();
+            char y = stack.pop();
+            System.out.println(x + " - " + y);
+            if (x != y) {
                 return false;
             }
         }
@@ -37,19 +40,22 @@ public class Q3 {
     private static String readInput() {
         System.out.print("Enter a string: ");
         inputString = scanner.nextLine();
-        return inputString.substring(0, inputString.length()/2);
+        return inputString;
     }
 
     private static void populate(String input) {
         inputString = input;
+        strLen = input.length();
         input.substring(0, inputString.length()/2).chars().forEach(
                 character -> stack.push((char) character)
         );
         if (strLen % 2 == 1) {  // odd
+            System.out.println(inputString.substring((strLen/2)+1, strLen));
             inputString.substring((strLen/2)+1, strLen).chars().forEach(
                     character -> queue.enqueue((char) character)
             );
         } else {                // even
+            System.out.println(inputString.substring(strLen/2, strLen));
             inputString.substring(strLen/2, strLen).chars().forEach(
                     character -> queue.enqueue((char) character)
             );

@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46702eb8-f088-4f50-8d78-920a8212a223" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/karunarathne/Palindrome/Basica/CharQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/karunarathne/Palindrome/Basica/CharQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/me/karunarathne/Palindrome/Basica/Q3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/karunarathne/Palindrome/Basica/Q3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +42,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Q2">
+  <component name="RunManager" selected="Application.Q3">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="co1212-assignment-8" />
@@ -87,8 +89,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Q3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="me.karunarathne.Palindrome.Basica.Q3" />
+      <module name="co1212-assignment-8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.karunarathne.Palindrome.Basica.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Q3" />
         <item itemvalue="Application.Q2" />
         <item itemvalue="Application.Q1" />
         <item itemvalue="Application.Main" />
@@ -111,7 +127,7 @@
       <workItem from="1654073973238" duration="56000" />
       <workItem from="1654074219683" duration="82000" />
       <workItem from="1654321948061" duration="581000" />
-      <workItem from="1654351115566" duration="4918000" />
+      <workItem from="1654351115566" duration="6136000" />
     </task>
     <servers />
   </component>
@@ -128,5 +144,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/me/karunarathne/Palindrome/Basica/Q3.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
