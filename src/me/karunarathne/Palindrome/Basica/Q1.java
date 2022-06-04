@@ -5,5 +5,10 @@ public class Q1 {
 
     public static void main(String[] args) {
         stack = new CharStack();
+        populateStack(readInput());
+    }
+
+    private static readInput() {
+        
     }
 }
