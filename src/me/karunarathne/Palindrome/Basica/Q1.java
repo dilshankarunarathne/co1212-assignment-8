@@ -20,6 +20,6 @@ public class Q1 {
     }
 
     private static String readInput() {
-        return scanner.nextLine();
+        inputString = scanner.nextLine();
     }
 }
