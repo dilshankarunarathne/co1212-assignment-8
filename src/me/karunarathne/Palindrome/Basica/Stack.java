@@ -1,2 +1,4 @@
-package me.karunarathne.Palindrome.Basica;public class Stack {
+package me.karunarathne.Palindrome.Basica;
+
+public class Stack {
 }
