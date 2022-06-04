@@ -47,6 +47,7 @@ public class Q1 {
     }
 
     private static String readInput() {
+        System.out.println("Enter a string: ");
         inputString = scanner.nextLine();
         return inputString.substring(0, inputString.length()/2);
     }
