@@ -11,6 +11,7 @@ public class Q1 {
         scanner = new Scanner(System.in);
         stack = new CharStack();
         populateStack(readInput());
+        System.out.println(inputString.substring(0, inputString.length()/2));
     }
 
     private static void populateStack(String input) {
