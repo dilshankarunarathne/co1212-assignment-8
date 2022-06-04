@@ -28,6 +28,7 @@ public class Q3 {
     }
 
     private static void populate(String input) {
+        inputString = input;
         input.substring(0, inputString.length()/2).chars().forEach(
                 character -> stack.push((char) character)
         );
