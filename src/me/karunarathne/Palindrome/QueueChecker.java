@@ -1,5 +1,6 @@
 package me.karunarathne.Palindrome;
 
+@SuppressWarnings("unchecked")
 public class QueueChecker {
     private static CharQueue charQueue ;
     private static int length ;

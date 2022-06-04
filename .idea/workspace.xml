@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="46702eb8-f088-4f50-8d78-920a8212a223" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/karunarathne/Palindrome/QueueChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/karunarathne/Palindrome/QueueChecker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +41,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="co1212-assignment-8" />
@@ -63,8 +64,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -82,6 +83,7 @@
       <workItem from="1654072347115" duration="1509000" />
       <workItem from="1654073973238" duration="56000" />
       <workItem from="1654074219683" duration="82000" />
+      <workItem from="1654321948061" duration="581000" />
     </task>
     <servers />
   </component>
