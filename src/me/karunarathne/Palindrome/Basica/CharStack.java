@@ -17,10 +17,11 @@ public class CharStack {
         size ++ ;
     }
 
-    public char pop() {
+    public Character pop() {
         if (size == 0) {
-            
+            return null;
         }
+        
     }
 
     private class Node {
