@@ -9,8 +9,11 @@ public class CharQueue {
         size = 0;
     }
 
-    public char dequeue() {
-        
+    public Character dequeue() {
+        if (size == 0) {
+            return null;
+        }
+        if ()
     }
 
     public void enqueue(char character) {
