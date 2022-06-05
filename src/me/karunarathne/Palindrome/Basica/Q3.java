@@ -47,7 +47,6 @@ public class Q3 {
                 character -> stack.push((char) character)
         );
         if (strLen % 2 == 1) {  // odd
-            System.out.println(inputString.substring((strLen/2)+1, strLen));
             inputString.substring((strLen/2)+1, strLen).chars().forEach(
                     character -> queue.enqueue((char) character)
             );
