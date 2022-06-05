@@ -52,7 +52,6 @@ public class Q3 {
                     character -> queue.enqueue((char) character)
             );
         } else {                // even
-            System.out.println(inputString.substring(strLen/2, strLen));
             inputString.substring(strLen/2, strLen).chars().forEach(
                     character -> queue.enqueue((char) character)
             );
