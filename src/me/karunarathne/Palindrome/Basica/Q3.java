@@ -19,7 +19,6 @@ public class Q3 {
 
     private static boolean checkIfPalindrome() {
         for (int i=0; i<strLen/2; i++) {
-            System.out.println(x + " - " + y);
             if (queue.dequeue() != stack.pop()) {
                 return false;
             }
