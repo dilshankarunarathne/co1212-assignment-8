@@ -42,7 +42,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Q3">
+  <component name="RunManager" selected="Application.Q2">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="co1212-assignment-8" />
@@ -104,8 +104,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Q3" />
         <item itemvalue="Application.Q2" />
+        <item itemvalue="Application.Q3" />
         <item itemvalue="Application.Q1" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
