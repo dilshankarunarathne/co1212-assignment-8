@@ -18,7 +18,7 @@ public class CharQueue {
             firstNode = null;
         } else {
             firstNode.next.prev = null;
-            lastNode = lastNode.prev;
+            firstNode = firstNode.next;
         }
 
         size -- ;
