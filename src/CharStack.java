@@ -1,5 +1,3 @@
-package me.karunarathne.Palindrome.Basica;
-
 public class CharStack {
     private Node headNode;
     private int size;
