@@ -8,16 +8,16 @@ public class CharQueue {
     public CharQueue() {
         size = 0;
     }
-    
+
     public Character dequeue() {
         if (size == 0) {
             return null;
         }
-        char temp = lastNode.data;
+        char temp = firstNode.data;
         if (size == 1) {
-            lastNode = null;
+            firstNode = null;
         } else {
-            lastNode.prev.next = null;
+            firstNode.next.prev = null;
             lastNode = lastNode.prev;
         }
 
