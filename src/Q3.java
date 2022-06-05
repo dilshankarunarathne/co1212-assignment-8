@@ -1,5 +1,3 @@
-package me.karunarathne.Palindrome.Basica;
-
 import java.util.Scanner;
 
 public class Q3 {
